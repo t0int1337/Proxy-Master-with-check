@@ -3,6 +3,7 @@ name: get proxy
 on:
   schedule:
   - cron: '*/60 * * * *'
+  workflow_dispatch: 
 
 jobs:
   build:
